@@ -1,0 +1,11 @@
+*{
+	margin: 0;  /* boddy = 8px */
+	padding : 0;/* 列表、button */
+	text-decoration: none;/* 清除链接下划线  a*/
+    outline: none;/* button边框颜色 */
+    list-style: none; /* 列表 */
+}
+img{
+	width: 100%;
+	height: 100%;
+}
