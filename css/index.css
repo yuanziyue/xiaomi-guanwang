@@ -2,7 +2,7 @@
 * @Author: MacBook Air
 * @Date:   2017-12-12 14:58:15
 * @Last Modified by:   MacBook Air
-* @Last Modified time: 2017-12-18 20:43:06
+* @Last Modified time: 2017-12-22 09:23:50
 */
 @font-face {
   font-family: 'iconfont';  /* project id 507237 */
@@ -289,6 +289,7 @@
 }
 #box{
 	width: 100%;
+	height: 5255px;
 	background-color: #f5f5f5;
 }
 .jiadian{
@@ -613,13 +614,12 @@
 .neirong-item .neirong-jiantou-size{
 	font-size: 24px;
 	color: #fff;
-	font-weight: 500;
+    font-weight: 500;
 }
+
 .neirong .swiper-pagination-bullet-active{
 	background-color: #fff;
 	border: 2px solid #ff6700;
-
-
 }
 .neirong-item:hover .neirong-jiantou-left{
 	background-color: #ccc;
@@ -692,10 +692,13 @@
 .item8{
 	margin-top: 2px;
 }
+.neirong .neirong-lunbo{
+	margin-bottom: 20px;
+}
 .shipin{
 	width: 1226px;
 	height: 357px;
-	margin: 0 auto;
+	margin: 0 auto ;
 }
 .shipin-top{
 	width: 100%;
@@ -914,4 +917,185 @@
 .banner.swiper-pagination-bullet-active{
 	border: 2px solid rgba(0, 0, 0, .4);
 	background-color:#fff
+}
+.foot{
+	width: 100%;
+	background-color: #fff;
+	margin-top: 17px;
+}
+.foot-top{
+	width: 1226px;
+	height: 26px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-bottom: 1px solid #e0e0e0;
+	padding-top: 27px;
+	padding-bottom: 27px;
+
+}
+.foot-top-item{
+	width: 1226px;
+	height: 25px;
+}
+.foot-top-item1{
+	width: 242px;
+	height: 24px;
+	float: left;
+}
+.foot-top-item2{
+	display: block;
+	width: 200px;
+	height: 24px;
+	margin: 0 auto;
+}
+.foot-top .foot-weixiu{
+	font-size: 24px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.7);
+	display: block;
+	float: left;
+	color: #616161;
+	margin-right: 6px;
+}
+.foot-weixiuwenzi{
+	font-size:16px;
+	color: rgba(255, 255, 255, 0.7);
+	display: block;
+	float: left;
+	color: #616161;
+}
+.foot-top-item2:hover .foot-weixiuwenzi{
+	color: orange;
+}
+.foot-top-item2:hover .foot-weixiu{
+	color: orange;
+}
+.foot-bottom-item2:hover{
+	color: orange;
+}
+.foot-bottom{
+	width: 1226px;
+	height: 112px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.foot-bottom-item{
+	width: 160px;
+	height: 112px;
+	float: left;
+}
+.foot-bottom-item1{
+	margin-bottom: 26px;
+	font-size: 14px;
+    color: #424242;
+    display: block;
+}
+.foot-bottom-item2{
+	color: #757575;
+	font-size: 12px;
+	display: block;
+	margin-top: 10px;
+} 
+.foot-bottom-right{
+	width: 252px;
+	height: 112px;
+	float: right;
+	text-align: center;
+}   
+.foot-dianhua{
+	margin: 0 0 5px;
+    font-size: 22px;
+    color: #ff6700;
+}
+.foot-shijian{
+	margin: 0 0 2px;
+    font-size: 12px;
+    color: #616161;
+    display: block;
+}
+.foot-shihuafei{
+    font-size: 12px;
+    color: #616161;
+    display: block;
+    margin: 0 0 16px;
+}
+.foot-kefu{
+   	border: 1px solid #ff6700;
+   	width: 120px;
+   	height: 30px;
+   	display: block;
+   	width: 118px;
+   	height: 28px;
+   	margin: 0 auto;
+   	text-align: center;
+}
+.foot-kefu:hover{
+	background-color:  #ff6700;
+}
+.foot-kefu:hover .foot-bottom-xiaoxi{
+	color: #fff;
+}
+.foot-bottom-xiaoxi{
+	font-size: 10px;
+	color: #ff6700;
+	float: left;
+	line-height: 30px;
+	margin-left: 10px ;
+}
+.zuixiamian{
+	width: 100%;
+	/* height: 106px; */
+}
+.zuixiamian-neikuan{
+	width: 1226px;
+	height: 106px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.zuixiamian-left{
+	width: 641px;
+	height: 57px;
+	float: left;
+}
+.left-logo{
+	width: 57px;
+	height: 57px;
+	background-color: orange;
+	margin-right: 10px;
+	float: left;
+}
+.zuixiamian-yinsi{
+	width: 574px;
+	height: 57px;
+	float: right;
+}
+.bottom-lianjietop{
+	width: 574px;
+	height: 18px;
+}
+.bottom-lianjietop1{
+	font-size: 12px;
+	color: #757575;
+}
+.beian{
+	color: #b0b0b0;
+	font-size: 12px;
+	width: 574px;
+	height: 35px;
+	display: block;
+}
+.zuixiamian-right{
+	width: 500px;
+	height: 57px;
+	float: right;
+}
+.tupian1{
+	width: 83px;
+	height: 28px;
+	margin-top: 14.5px;
+	float: left;
+	margin-right: 10px;
+}
+.bottom-lianjietop1:hover{
+	color: orange;
 }
